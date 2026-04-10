@@ -164,7 +164,7 @@ In Triple Negative Breast Cancer (TNBC), 1,227 patients were recorded, with 755 
   
   - Finally, continuous data collection and analysis should be encouraged to support evidence-based decision-making and improve future breast cancer management strategies.
 
-##Conclusion
+## Conclusion
 This analysis underscores the importance of early detection in improving breast cancer survival outcomes, as survival rates decline significantly with advancing stages. 
 Treatment effectiveness varies across cancer types and stages, with multimodal (combined) treatment approaches demonstrating the most consistent balance between survival improvement and recurrence control. Patient age also influences clinical outcomes, particularly in survival, mortality, and recurrence patterns. These findings highlight the need for personalized and stage-specific treatment strategies. Overall, integrating multimodal therapy into treatment plans can significantly enhance patient outcomeThe average tumor size is approximately 4.28 cm, providing insight into disease progression at diagnosis and its potential impact on treatment strategies.
 
