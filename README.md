@@ -1,4 +1,4 @@
-# BREAST-CANCER-PATIENT-ANALYSIS
+# BREAST CANCER PATIENT ANALYSIS
 
 ## Introduction
 Breast Cancer is a disease in which abnormal cells in the breast grow uncomfortably, forming a tumor that can invade surrounding tissues or spread to other parts of the body. It is one of the most common cancers affecting women worldwide, although it can also occur in men. The project focuses on analyzing a one-year patient records, including survival and recurrence outcomes, to create interactive dashboards to present outcomes and enhance treatment effectiveness.
@@ -62,17 +62,10 @@ This model structure allows flexible slicing and filtering across all visuals.
 ## Analytics and Measures
 Key DAX measures were created to monitor trends
 
-**Early Diagnosis**
-  - Early Diagnosis = CALCULATE(COUNT('Fact Table'[Patient ID]),'Dim Cancer Stage'[Cancer Stage Category] = "Early")
-
-**Survival Rate**
-  - Survival Rate = DIVIDE(CALCULATE(COUNT('Fact Table'[Patient ID]),'Fact Table'[Survival Status] = "Survived"),COUNT('Fact Table'[Patient ID]))
-
-**Mortality Rate**
-  - Mortality Rate = DIVIDE(CALCULATE(COUNT('Fact Table'[Patient ID]),'Fact Table'[Survival Status] = "Deceased"),COUNT('Fact Table'[Patient ID]))
-
-**Recurrence Rate**
-  - Recurrence Rate = DIVIDE(CALCULATE(COUNT('Fact Table'[Patient ID]),'Fact Table'[Recurrence Status] ="Yes"),COUNT('Fact Table'[Patient ID]))
+ - **Early Diagnosis:** Measures the number or proportion of breast cancer cases detected at an early stage before the cancer progresses.
+ - **Survival Rate:** Represents the proportion of breast cancer patients who remain alive after a specified period following diagnosis.
+ - **Mortality Rate:** Measures the number of deaths attributed to breast cancer in this dataset
+ - **Recurrence Rate:** Represents the proportion of breast cancer patients whose cancer returns after treatment.
 
 ## Dashboard and Visuals
 Dashboard screenshots are placed here in the portfolio
